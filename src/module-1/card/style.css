@@ -1,0 +1,100 @@
+html {
+    background-color: whitesmoke;
+}
+
+
+.card{
+    width: 400px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.card__rating{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card-rating__stars{
+    height: 30px;
+    background-color: #6F64F8;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    width: 65px;
+}
+
+.card-rating__price {
+    font-size: 1.1em;
+}
+
+.card__bottom{
+    display: flex;
+    flex-direction: row;
+}
+
+.card__description{
+    padding-top: 16px;
+}
+
+.card-description__title{
+    font-size: 1em;
+    line-height: 19px;
+    margin-bottom: 3px;
+}
+
+.card-description__desc{
+    font-size: 0.8em;
+    line-height: 14px;
+    font-weight: 300;
+    margin-bottom: 22px;
+}
+
+.card-bottom__wishlist, .card-bottom__to-cart{
+    font-weight: 600;
+    line-height: 18px;
+    font-size: 0.9em;
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 14px 0;
+}
+
+.card-bottom__wishlist{
+    background: #EDEDED;
+    color: #2C2C2C;
+    border-bottom-left-radius: 8px;
+}
+
+
+.card-bottom__to-cart {
+    background-color: #6F64F8;
+    color: white;
+    border-bottom-right-radius: 8px;
+}
+
+
+.card-bottom__wishlist > img, .card-bottom__to-cart > img{
+    margin-right: 16px;
+}
+
+
+.card__image-container {
+    display: flex;
+    justify-content: center;
+}
+
+.card__image {
+    padding-bottom: 31px;
+}
+
+.card__wrapper {
+    padding: 31px 21px 22px 25px;
+}
+
+
+
+
+
