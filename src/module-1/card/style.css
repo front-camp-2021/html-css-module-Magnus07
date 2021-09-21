@@ -1,20 +1,19 @@
-html {
-    background-color: whitesmoke;
-}
-
-
 .card{
     width: 400px;
-    font-family: 'Montserrat', sans-serif;
     background-color: white;
     border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
+
 
 .card__rating{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
+
 
 .card-rating__stars{
     height: 30px;
@@ -23,34 +22,41 @@ html {
     align-items: center;
     justify-content: space-evenly;
     color: white;
-    width: 65px;
+    width: 66px;
+    font-size: 0.88em;
 }
+
 
 .card-rating__price {
     font-size: 1.1em;
 }
+
 
 .card__bottom{
     display: flex;
     flex-direction: row;
 }
 
+
 .card__description{
     padding-top: 16px;
 }
 
+
 .card-description__title{
     font-size: 1em;
     line-height: 19px;
-    margin-bottom: 3px;
+    margin-bottom: 4px;
 }
 
+
 .card-description__desc{
-    font-size: 0.8em;
+    font-size: 0.75em;
     line-height: 14px;
     font-weight: 300;
-    margin-bottom: 22px;
+    color: #2C2C2C;
 }
+
 
 .card-bottom__wishlist, .card-bottom__to-cart{
     font-weight: 600;
@@ -59,8 +65,13 @@ html {
     flex-basis: 50%;
     display: flex;
     justify-content: center;
+    text-align: center;
     padding: 14px 0;
+    cursor: pointer;
+    border: none;
+    text-transform: uppercase;
 }
+
 
 .card-bottom__wishlist{
     background: #EDEDED;
@@ -76,6 +87,11 @@ html {
 }
 
 
+.card-bottom__wishlist, .card-bottom__to-cart{
+   justify-items: center;
+}
+
+
 .card-bottom__wishlist > img, .card-bottom__to-cart > img{
     margin-right: 16px;
 }
@@ -86,15 +102,13 @@ html {
     justify-content: center;
 }
 
+
 .card__image {
-    padding-bottom: 31px;
+    padding-bottom: 32px;
+    cursor: pointer;
 }
+
 
 .card__wrapper {
-    padding: 31px 21px 22px 25px;
+    padding: 32px 22px 22px 26px;
 }
-
-
-
-
-
