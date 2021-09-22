@@ -63,13 +63,18 @@
     line-height: 18px;
     font-size: 0.9em;
     flex-basis: 50%;
-    display: flex;
-    justify-content: center;
     text-align: center;
-    padding: 14px 0;
-    cursor: pointer;
     border: none;
     text-transform: uppercase;
+}
+
+
+.wishlist__wrapper, .atocart__wrapper{
+    display: flex;
+    padding: 14px 0;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -87,13 +92,8 @@
 }
 
 
-.card-bottom__wishlist, .card-bottom__to-cart{
-   justify-items: center;
-}
-
-
-.card-bottom__wishlist > img, .card-bottom__to-cart > img{
-    margin-right: 16px;
+.wishlist__wrapper > img, .atocart__wrapper > img{
+    margin-right: 8px;
 }
 
 
