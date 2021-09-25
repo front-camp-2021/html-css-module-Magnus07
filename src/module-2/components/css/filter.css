@@ -1,0 +1,151 @@
+.filters{
+    width: 33%;
+    margin: 30px;
+}
+
+
+.filters__title{
+    font-weight: 400;
+    line-height: 21px;
+    font-size: 18px;
+}
+
+
+.filters__category{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+label, .filters__category-found{
+    font-style: normal;
+    font-weight: 300;
+    line-height: 32px;
+    font-size: 16px;
+}
+
+
+.filters__category-found{
+    font-size: 14px;
+}
+
+
+.filters__subsection-header{
+    font-style: normal;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+}
+
+
+.filters__list{
+    background-color: white;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.135216);
+    border-radius: 8px;
+    padding-top: 20px;
+}
+
+
+.filters__section{
+    padding-left: 50px;
+    width: 66%;
+}
+
+
+.filters__section-break{
+    margin: 28px 0;
+    border: 1px solid #D6D6D6;
+}
+
+
+.filters__subsection-header{
+    margin-bottom: 26px;
+}
+
+
+.filters__rb{
+    height: 18px;
+    width: 18px;
+    background: white;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: 1px solid #979797;
+    margin-right: 12px;
+}
+
+
+.filters__rb[type=radio]{
+    border-radius: 60%;
+}
+
+
+.filters__rb:checked{
+    background: #6F64F8;
+}
+
+
+.filters__header{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.filters__hide{
+    background-image: url(../img/chevrons-right.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate(-179.89deg);
+    height: 40px;
+    width: 46px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.135216);
+    border-radius: 8px;
+    margin-bottom: 16px;
+    border:none;
+}
+
+
+.filters__button{
+    font-family: Montserrat;
+    margin-top: 28px;
+    width: 100%;
+    text-transform: uppercase;
+    color: white;
+    background: #6F64F8;
+    font-size: 18px;
+    line-height: 21px;
+    font-style: normal;
+    font-weight: 400;
+    padding: 17px 0;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.135216);
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+
+@media (max-width: 1024px) {
+    label, .filters__category-found{
+        /* line-height: 32px; */
+        font-size: 14px;
+    }
+
+
+    .filters__title{
+        font-weight: 400;
+        line-height: 18px;
+        font-size: 16px;
+    }
+
+
+    .filters__button{
+        font-size: 14px;
+    }
+}
+
+
+@media (max-width: 720px) {
+    .filters {
+        visibility: hidden;
+    }
+}
