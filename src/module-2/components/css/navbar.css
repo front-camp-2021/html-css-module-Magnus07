@@ -1,0 +1,37 @@
+nav{
+    margin-top: 36px;
+}
+
+
+.navbar__wrapper{
+    display: flex;
+    color: #7E72F2;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.875em;
+    margin-left: 34px;
+    align-items: center;
+}
+
+
+.navbar__section:first-of-type{
+    width: 18px;
+    height: 16px;
+    background-image: url("../img/home.svg");
+    background-repeat: no-repeat;
+}
+
+
+.navbar__pointer{
+    background-image: url("../img/chevrons-right.svg");
+    width: 14px;
+    height: 10px;
+    background-repeat: no-repeat;
+    margin: 0 12px;
+}
+
+
+.navbar__section:last-of-type{
+    color: black;
+}
+
